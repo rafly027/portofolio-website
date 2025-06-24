@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Portofolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #eee; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { margin-left: 15px; text-decoration: none; color: #333; }
+    .container { padding: 20px; }
+    .header-content { display: flex; justify-content: space-between; align-items: center; }
+    .header-content img { max-width: 100%; height: auto; }
+    .about, .portfolio { margin-top: 40px; text-align: center; }
+    .about-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 20px; }
+    .portfolio-items { display: flex; justify-content: space-around; margin-top: 20px; }
+    .card { border: 1px solid #ccc; padding: 10px; width: 30%; }
+    .card img { width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>Brand</strong></div>
+  <nav>
+    <a href="#header">Header</a>
+    <a href="#biodata">Biodata</a>
+    <a href="#portofolio">Portofolio</a>
+  </nav>
+</header>
+
+<div class="container" id="header">
+  <div class="header-content">
+    <div>
+      <h3>Selamat Datang di Website Saya</h3>
+      <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+      <a href="#">Pelajari Lebih Lanjut</a>
+    </div>
+    <img src="https://via.placeholder.com/600x400" alt="Header Image">
+  </div>
+
+  <div class="about" id="biodata">
+    <h2>About Me</h2>
+    <p>A brief introduction about myself</p>
+    <div class="about-grid">
+      <div>Full Name</div>
+      <div>Education</div>
+      <div>Pekerjaan</div>
+      <div>Contact</div>
+      <div>Hobi</div>
+      <div>Alamat</div>
+    </div>
+  </div>
+
+  <div class="portfolio" id="portofolio">
+    <h2>Portofolio</h2>
+    <div class="portfolio-items">
+      <div class="card">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 1">
+        <h4>Proyek 1</h4>
+        <p>Deskripsi proyek 1.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 2">
+        <h4>Proyek 2</h4>
+        <p>Deskripsi proyek 2.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 3">
+        <h4>Proyek 3</h4>
+        <p>Deskripsi proyek 3.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
